@@ -46,7 +46,7 @@ router.get('/:postId', async (req, res) => {
     }
 })
 
-//PATCH (Update m)
+//PATCH (Update)
 router.patch('/:postId', async (req, res) => {
     try {
         const updatePostById = await Post.updateOne(
